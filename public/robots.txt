@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+# Authenticated areas (private, per-user content)
+Disallow: /home
+Disallow: /upcoming
+Disallow: /calendar
+Disallow: /settings
+Disallow: /lists/
+Disallow: /auth
+Disallow: /forgot-password
+Disallow: /verification-code
+Disallow: /reset-password
+
+Sitemap: https://rememberme-lemon-chi.vercel.app/sitemap.xml
