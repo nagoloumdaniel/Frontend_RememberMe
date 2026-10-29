@@ -15,8 +15,8 @@ export default function Settings() {
   });
   const [savedProfile, setSavedProfile] = useState(null);
 
-  const [notifLoading, setNotifLoading] = useState(true);
-  const [notifDate, setNotifDate] = useState(new Date().toISOString().slice(0, 10));
+  const [, setNotifLoading] = useState(true);
+  const [, setNotifDate] = useState(new Date().toISOString().slice(0, 10));
   const [notifTodos, setNotifTodos] = useState([]);
   const [selectedTodo, setSelectedTodo] = useState(null);
 
